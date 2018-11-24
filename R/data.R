@@ -3561,30 +3561,6 @@
 
 ################################################################################
 #
-#' ppiZMB2013_cso
-#'
-#' Poverty Probability Index (PPI) lookup table for Zambia
-#'
-#' @format A data frame with 9 columns and 101 rows:
-#' \describe{
-#' \item{\code{score}}{PPI score}
-#' \item{\code{food}}{Food poverty line}
-#' \item{\code{nl100}}{National poverty line (100\%)}
-#' \item{\code{nl150}}{National poverty line (150\%)}
-#' \item{\code{nl200}}{National poverty line (200\%)}
-#' \item{\code{extreme}}{USAID extreme poverty}
-#' \item{\code{ppp125}}{Below $1.25 per day purchasing power parity (2005)}
-#' \item{\code{ppp200}}{Below $2.00 per day purchasing power parity (2005)}
-#' \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}
-#' }
-#' @source \url{www.povertyindex.org}
-#'
-#
-################################################################################
-"ppiZMB2013_cso"
-
-################################################################################
-#
 #' ppiZMB2017
 #'
 #' Poverty Probability Index (PPI) lookup table for Zambia
@@ -3695,3 +3671,68 @@
 #
 ################################################################################
 "ppiZMB2013_got"
+
+
+################################################################################
+#
+#' ppiKEN2018
+#'
+#' Poverty Probability Index (PPI) lookup table for Kenya
+#'
+#' @format A data frame with 17 columns and 101 rows:
+#' \describe{
+#' \item{\code{score}}{PPI score}
+#' \item{\code{nl100}}{National poverty line (100)}
+#' \item{\code{nlFood}}{Food poverty line}
+#' \item{\code{nl150}}{National poverty line (150)}
+#' \item{\code{nl200}}{National poverty line (200)}
+#' \item{\code{ppp100}}{Below $1.00 per day purchasing power parity (2011)}
+#' \item{\code{ppp190}}{Below $1.90 per day purchasing power parity (2011)}
+#' \item{\code{ppp320}}{Below $3.20 per day purchasing power parity (2011)}
+#' \item{\code{ppp550}}{Below $5.50 per day purchasing power parity (2011)}
+#' \item{\code{ppp800}}{Below $8.00 per day purchasing power parity (2011)}
+#' \item{\code{ppp125}}{Below $1.25 per day purchasing power parity (2005)}
+#' \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}
+#' \item{\code{ppp500}}{Below $5.00 per day purchasing power parity (2005)}
+#' \item{\code{percentile20}}{Below 20th percentile poverty line}
+#' \item{\code{percentile40}}{Below 40th percentile poverty line}
+#' \item{\code{percentile60}}{Below 50th percentile poverty line}
+#' \item{\code{percentile80}}{Below 60th percentile poverty line}
+#' }
+#' @source \url{www.povertyindex.org}
+#'
+#
+################################################################################
+"ppiKEN2018"
+ 
+ 
+################################################################################
+# 
+#' ppiSEN2018  
+#' 
+#' Poverty Probability Index (PPI) lookup table for Senegal  
+#' 
+#' @format A data frame with 16 columns and 101 rows:  
+#' \describe{ 
+#' \item{\code{score}}{PPI score}  
+#' \item{\code{nl100}}{National poverty line (100)}  
+#' \item{\code{nlFood}}{Food poverty line}  
+#' \item{\code{nl150}}{National poverty line (150)}  
+#' \item{\code{nl200}}{National poverty line (200)}  
+#' \item{\code{ppp100}}{Below $1.00 per day purchasing power parity (2011)}  
+#' \item{\code{ppp190}}{Below $1.90 per day purchasing power parity (2011)}  
+#' \item{\code{ppp320}}{Below $3.20 per day purchasing power parity (2011)}  
+#' \item{\code{ppp550}}{Below $5.50 per day purchasing power parity (2011)}  
+#' \item{\code{ppp125}}{Below $1.25 per day purchasing power parity (2005)}  
+#' \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}  
+#' \item{\code{ppp500}}{Below $5.00 per day purchasing power parity (2005)}  
+#' \item{\code{percentile20}}{Below 20th percentile poverty line}  
+#' \item{\code{percentile40}}{Below 40th percentile poverty line}  
+#' \item{\code{percentile60}}{Below 60th percentile poverty line}  
+#' \item{\code{percentile80}}{Below 80th percentile poverty line}  
+#' } 
+#' @source \url{www.povertyindex.org}  
+#' 
+# 
+################################################################################ 
+"ppiSEN2018"

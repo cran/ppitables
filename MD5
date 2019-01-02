@@ -1,13 +1,13 @@
-49e57d58e3dd545a710c5adf3534ee67 *DESCRIPTION
+741f2f2fa886aaebb933901f648c3ff2 *DESCRIPTION
 04d922ff484882906adf46ce9541a06a *LICENSE
 b840a35306dcb532f7c1d75425aa8137 *NAMESPACE
-b9ee72e9f30a025fa39edcb39e32318e *NEWS.md
-882e5c46b8a1423b25af764d538231a1 *R/data.R
+aa0f909a3c8915bd80cb436be8e9d3d0 *NEWS.md
+6cbe33e6a7e61172f9895bb93f3d4867 *R/data.R
 33b2a0e9a8663f4c972e72481c63b4f7 *R/find_table.R
 01ac045b61ab525205975db1be1e5d0a *R/get_table.R
 08333b28b003bf68dd9eb2929eff98fa *R/ppitables.R
-048160011cd7b4c77f1dfbeb25c53e6e *R/sysdata.rda
-56784ee8a3e8fea95822d0e9d627d950 *README.md
+3fed5db441ec326025461c9428154b82 *R/sysdata.rda
+c075023f4c47fe0bee83c87ddcc5ee02 *README.md
 5baf19394cb5299cd06de9fdd71d9348 *data/ppiAFG2012.rda
 e875312b07ce1c618051ef7d251341b3 *data/ppiAGO2015.rda
 7fd2ca0f13726abb9d56e42807585068 *data/ppiBEN2012.rda
@@ -24,6 +24,7 @@ fdecbbee56ab9054ca4516269e6235f0 *data/ppiCIV2013.rda
 47ed78756b7c5ec98fa4e7b6dd6daf94 *data/ppiCOL2012_a.rda
 4c129a184c945b37c2a542cd9695c4b2 *data/ppiCOL2018.rda
 2962c29edf8ac9edba54c82afd35126b *data/ppiDOM2010.rda
+cab18b616429578fc1ae08110055798a *data/ppiDOM2018.rda
 8f65da9c865260fbc6fc85e051216fdb *data/ppiECU2015.rda
 c8c0be4cf54601f4561decf88fa36830 *data/ppiEGY2010.rda
 94527291a76a48f35f4f7854334b1ecf *data/ppiETH2016.rda
@@ -93,6 +94,9 @@ f9c7b97410204bcbf05b9c4453dd4b28 *data/ppiYEM2009.rda
 335f26f91f560f2777767fd32b1a43cf *data/ppiZMB2013_got.rda
 7e60c647fd88e78cc747374562bd4b97 *data/ppiZMB2017.rda
 daccf4d417ba2ddedb61a78dcd71ccaa *data/ppiZMB2017_a.rda
+f248d5f5f58ee9a40367c97eff034264 *inst/createHexSticker.R
+b353daff14d7305a831436442edbcdd0 *inst/figures/poverty.png
+27b8831031b74ce9bd7f9ad4562e0f6e *man/figures/ppitables.png
 b2315e2ccbb04fecc1b09f6fc53f96cf *man/find_table.Rd
 51c64b51d2666c5c0c5f6d56a1cc4746 *man/get_table.Rd
 e4315bb4dd860d0454fac7ac292d107e *man/ppiAFG2012.Rd
@@ -111,6 +115,7 @@ f0756e840d713d3a315c72db0b8326eb *man/ppiCMR2013.Rd
 635048b7193c267bc7cdb1b3f754cc16 *man/ppiCOL2012_a.Rd
 1a5603ca984731dac67fa506b410dee0 *man/ppiCOL2018.Rd
 aa1f6defd1b5af92d4e842f3fca9321c *man/ppiDOM2010.Rd
+e00d5a5f1d75ef72770437820d2a4652 *man/ppiDOM2018.Rd
 1c0e8d0a41d01d17290193b43e8ee930 *man/ppiECU2015.Rd
 f3e193c2a06cb0bbd8df3582ab5270af *man/ppiEGY2010.Rd
 f68b0b17c648baf239ba5eaf0c6d6cbe *man/ppiETH2016.Rd

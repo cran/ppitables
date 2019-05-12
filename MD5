@@ -1,13 +1,13 @@
-741f2f2fa886aaebb933901f648c3ff2 *DESCRIPTION
+ba2d6093e0d8b94f48e60c842d3074e0 *DESCRIPTION
 04d922ff484882906adf46ce9541a06a *LICENSE
 b840a35306dcb532f7c1d75425aa8137 *NAMESPACE
-aa0f909a3c8915bd80cb436be8e9d3d0 *NEWS.md
-6cbe33e6a7e61172f9895bb93f3d4867 *R/data.R
+886bd9553dc84b37761e8eb5a3218137 *NEWS.md
+03616d1dc9d28c1f393403c7116e4b9e *R/data.R
 33b2a0e9a8663f4c972e72481c63b4f7 *R/find_table.R
 01ac045b61ab525205975db1be1e5d0a *R/get_table.R
 08333b28b003bf68dd9eb2929eff98fa *R/ppitables.R
-3fed5db441ec326025461c9428154b82 *R/sysdata.rda
-c075023f4c47fe0bee83c87ddcc5ee02 *README.md
+a96e21e7291862d532c2246934826965 *R/sysdata.rda
+ab56a700cd9c6dc37d99358f9f2530be *README.md
 5baf19394cb5299cd06de9fdd71d9348 *data/ppiAFG2012.rda
 e875312b07ce1c618051ef7d251341b3 *data/ppiAGO2015.rda
 7fd2ca0f13726abb9d56e42807585068 *data/ppiBEN2012.rda
@@ -32,6 +32,7 @@ d5f20ab25ab4642f6641786664a9353e *data/ppiFJI2014.rda
 def405fefb1850651c32814e1ff86a4e *data/ppiGHA2015.rda
 f0912903aad3802aceb9cbb9be97a78b *data/ppiGHA2015_a.rda
 f3982814716704aacf15badb402ec1c7 *data/ppiGHA2015_b.rda
+b2cf56030c47672eb42d280e9794ec7c *data/ppiGHA2019.rda
 6ddb0da0184ba8872eaaef0e24968acc *data/ppiGTM2016.rda
 f0cdd193ae7431fe512dff90a1c6b971 *data/ppiHND2010.rda
 4d972440c9cdec84ca04756d9f316692 *data/ppiHTI2016.rda
@@ -94,9 +95,9 @@ f9c7b97410204bcbf05b9c4453dd4b28 *data/ppiYEM2009.rda
 335f26f91f560f2777767fd32b1a43cf *data/ppiZMB2013_got.rda
 7e60c647fd88e78cc747374562bd4b97 *data/ppiZMB2017.rda
 daccf4d417ba2ddedb61a78dcd71ccaa *data/ppiZMB2017_a.rda
-f248d5f5f58ee9a40367c97eff034264 *inst/createHexSticker.R
+950c552ad07dddaa346f36a5c0430a81 *inst/createHexSticker.R
 b353daff14d7305a831436442edbcdd0 *inst/figures/poverty.png
-27b8831031b74ce9bd7f9ad4562e0f6e *man/figures/ppitables.png
+a584305010795afa75e6544237c0df2d *man/figures/ppitables.png
 b2315e2ccbb04fecc1b09f6fc53f96cf *man/find_table.Rd
 51c64b51d2666c5c0c5f6d56a1cc4746 *man/get_table.Rd
 e4315bb4dd860d0454fac7ac292d107e *man/ppiAFG2012.Rd
@@ -115,7 +116,7 @@ f0756e840d713d3a315c72db0b8326eb *man/ppiCMR2013.Rd
 635048b7193c267bc7cdb1b3f754cc16 *man/ppiCOL2012_a.Rd
 1a5603ca984731dac67fa506b410dee0 *man/ppiCOL2018.Rd
 aa1f6defd1b5af92d4e842f3fca9321c *man/ppiDOM2010.Rd
-e00d5a5f1d75ef72770437820d2a4652 *man/ppiDOM2018.Rd
+dcf6501a4633e0ef7a0551e1245b36f5 *man/ppiDOM2018.Rd
 1c0e8d0a41d01d17290193b43e8ee930 *man/ppiECU2015.Rd
 f3e193c2a06cb0bbd8df3582ab5270af *man/ppiEGY2010.Rd
 f68b0b17c648baf239ba5eaf0c6d6cbe *man/ppiETH2016.Rd
@@ -123,6 +124,7 @@ d423063beb1c7fa7cec7f3f98cef8477 *man/ppiFJI2014.Rd
 381f512cf13cd3e774dce99638590fb9 *man/ppiGHA2015.Rd
 464517504dd7351e4f16ab719d460272 *man/ppiGHA2015_a.Rd
 9a43caf946b73fe5412b0dc7690018b3 *man/ppiGHA2015_b.Rd
+d215d59e2ba520de6e947d297f24109a *man/ppiGHA2019.Rd
 0d4c6ecd49ceb3d34d02e27c2c128ac7 *man/ppiGTM2016.Rd
 415e0fafd31fd7d41c06fecd7099bd8b *man/ppiHND2010.Rd
 74539093eb53bbb47177033935aec00c *man/ppiHTI2016.Rd
@@ -134,7 +136,7 @@ cf1f33c3adc9e6adb46ea2774c616599 *man/ppiIND2016_r66.Rd
 626a3709e29a98b520a04c9a30ba9722 *man/ppiIND2016_r68.Rd
 9cb6264e66904d358a3c324fd93d8796 *man/ppiJOR2010.Rd
 47e6e4cc38ac43c560ed5eaaf484fbb0 *man/ppiKEN2011.Rd
-841d523cf288c014ae74860e2f26a4e7 *man/ppiKEN2018.Rd
+0c3ab57f73e8696e557ef1a80d84ac8a *man/ppiKEN2018.Rd
 9b7e9506f270a8dcb21c4a2928070e53 *man/ppiKGZ2015.Rd
 1380f5c1305358a3cd35cdb9a9e5a15d *man/ppiKHM2015.Rd
 ea65a934f3e7deaf78fd9dca273f6c2b *man/ppiKHM2015_gov.Rd
@@ -169,7 +171,7 @@ c0afe806c4e5d8e6e681d0fb0cc5c4d3 *man/ppiROU2009.Rd
 aee780091145758ddae97db80e430a9c *man/ppiRUS2010.Rd
 fcf36eca57cf177a907acf953a863457 *man/ppiRWA2016.Rd
 2e03781aa1f08b575e440bc855be93d8 *man/ppiSEN2009.Rd
-67147cfb4ac4b40e1af897f796056cdc *man/ppiSEN2018.Rd
+d8e93c55ea41a7cea329b80cf5bb58e2 *man/ppiSEN2018.Rd
 60dae76480ff4f421b14fcc2bd9c50ce *man/ppiSLE2011.Rd
 42da84fc5ed741c34cb607d54922de1f *man/ppiSLV2010.Rd
 4cca65f2ef0899dbecdc9fa70739508d *man/ppiSYR2010.Rd
@@ -182,7 +184,7 @@ e6d61866f356cbd17c0511ef6ba16194 *man/ppiVNM2009.Rd
 2d0b9d68693c92d08e00b686a7024116 *man/ppiYEM2009.Rd
 55a63f697f74e1c6511837ebe61b078f *man/ppiZAF2009.Rd
 3b4ea2247a25b4976c7b4baa770f99c3 *man/ppiZMB2013_cso.Rd
-bdf69f58c6527b1519c36b21a329c3f2 *man/ppiZMB2013_got.Rd
+9bb00b9620c4f53e6f546ed2da1c0da9 *man/ppiZMB2013_got.Rd
 670781178e216a25918ff9fec764c196 *man/ppiZMB2017.Rd
 e64d121874df2dff133669aea04e03e5 *man/ppiZMB2017_a.Rd
 7037a391ba05bc778cd03e0d37992525 *man/ppitables.Rd

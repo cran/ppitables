@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiSYR2010}
 \alias{ppiSYR2010}
-\title{ppiSYR2010}
+\title{Poverty Probability Index (PPI) lookup table for Syria}
 \format{A data frame with 8 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -16,7 +16,7 @@
 \item{\code{ppp500}}{Below $5.00 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiSYR2010

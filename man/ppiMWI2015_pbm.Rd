@@ -3,7 +3,8 @@
 \docType{data}
 \name{ppiMWI2015_pbm}
 \alias{ppiMWI2015_pbm}
-\title{ppiMWI2015_pbm}
+\title{Poverty Probability Index (PPI) lookup table for Malawi using PBM poverty
+definitions}
 \format{A data frame with 13 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -21,7 +22,7 @@
 \item{\code{ppp310}}{Below $3.10 per day purchasing power parity (2011)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiMWI2015_pbm

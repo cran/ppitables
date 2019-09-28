@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiZMB2017}
 \alias{ppiZMB2017}
-\title{ppiZMB2017}
+\title{Poverty Probability Index (PPI) lookup table for Zambia}
 \format{A data frame with 17 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -25,7 +25,7 @@
 \item{\code{percentile80}}{Below 80th percentile poverty line}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiZMB2017

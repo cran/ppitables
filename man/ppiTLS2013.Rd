@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiTLS2013}
 \alias{ppiTLS2013}
-\title{ppiTLS2013}
+\title{Poverty Probability Index (PPI) lookup table for Timor Leste}
 \format{A data frame with 8 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -16,7 +16,7 @@
 \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiTLS2013

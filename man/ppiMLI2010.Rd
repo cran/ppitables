@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiMLI2010}
 \alias{ppiMLI2010}
-\title{ppiMLI2010}
+\title{Poverty Probability Index (PPI) lookup table for Mali}
 \format{A data frame with 6 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -14,7 +14,7 @@
 \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiMLI2010

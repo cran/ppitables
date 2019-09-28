@@ -2,7 +2,7 @@ Package: ppitables
 Type: Package
 Title: Lookup Tables to Generate Poverty Likelihoods and Rates using
         the Poverty Probability Index (PPI)
-Version: 0.5.0
+Version: 0.5.1
 Authors@R: person("Ernest", "Guevarra", comment = c(ORCID = "0000-0002-4887-4415"), 
                   email = "ernestgmd@gmail.com", role = c("aut", "cre"))
 Description: The Poverty Probability Index (PPI) is a poverty measurement tool 
@@ -26,8 +26,8 @@ RoxygenNote: 6.1.1
 URL: https://github.com/validmeasures/ppitables
 BugReports: https://github.com/validmeasures/ppitables/issues
 NeedsCompilation: no
-Packaged: 2019-05-12 00:09:36 UTC; ernest
+Packaged: 2019-09-28 19:49:59 UTC; ernest
 Author: Ernest Guevarra [aut, cre] (<https://orcid.org/0000-0002-4887-4415>)
 Maintainer: Ernest Guevarra <ernestgmd@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-05-12 07:20:03 UTC
+Date/Publication: 2019-09-28 20:10:03 UTC

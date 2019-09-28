@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiNER2013}
 \alias{ppiNER2013}
-\title{ppiNER2013}
+\title{Poverty Probability Index (PPI) lookup table for Niger}
 \format{A data frame with 9 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -17,7 +17,7 @@
 \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiNER2013

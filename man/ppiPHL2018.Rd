@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiPHL2018}
 \alias{ppiPHL2018}
-\title{ppiPHL2018}
+\title{Poverty Probability Index (PPI) lookup table for Philippines}
 \format{A data frame with 18 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -26,7 +26,7 @@
 \item{\code{percentile80}}{Below 80th percentile poverty line}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiPHL2018

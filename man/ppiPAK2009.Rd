@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiPAK2009}
 \alias{ppiPAK2009}
-\title{ppiPAK2009}
+\title{Poverty Probability Index (PPI) lookup table for Pakistan}
 \format{A data frame with 10 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -18,7 +18,7 @@
 \item{\code{ppp375}}{Below $2.50 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiPAK2009

@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiLKA2016}
 \alias{ppiLKA2016}
-\title{ppiLKA2016}
+\title{Poverty Probability Index (PPI) lookup table for Sri Lanka}
 \format{A data frame with 16 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -24,7 +24,7 @@
 \item{\code{percentile80}}{Below 80th percentile poverty line}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiLKA2016

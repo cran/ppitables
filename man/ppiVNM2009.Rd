@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiVNM2009}
 \alias{ppiVNM2009}
-\title{ppiVNM2009}
+\title{Poverty Probability Index (PPI) lookup table for Vietnam}
 \format{A data frame with 8 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -16,7 +16,7 @@
 \item{\code{molisa}}{MOLISA poverty line}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiVNM2009

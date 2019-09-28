@@ -38,8 +38,8 @@ library(ppitables)
 You can install `ppitables` from GitHub with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("validmeasures/ppitables")
+if(!require("remotes")) install.packages("remotes")
+remotes::install_github("validmeasures/ppitables")
 library(ppitables)
 ```
 
@@ -77,7 +77,7 @@ this additional component to some `PPI` tables refer to, read the index
 table below of the `PPI` tables available in this package.
 
 Following are the available PPI country tables from the `ppitables`
-package. This is updated as at 11 May 2019 using information from the
+package. This is updated as at 14 June 2019 using information from the
 PPI [site](https://www.povertyindex.org).
 
 ### List of PPI country tables
@@ -437,7 +437,7 @@ PPI [site](https://www.povertyindex.org).
 <li></li>
 </ol></td>
 <td><code>ppiMLI2010</code></td>
-<td>PPI for Mali based on Mali’s 2001 Poverty Evalution Survey</td>
+<td>PPI for Mali based on Mali’s 2001 Poverty Evaluation Survey</td>
 <td style="text-align: center;">2010</td>
 </tr>
 <tr class="even">
@@ -449,6 +449,12 @@ PPI [site](https://www.povertyindex.org).
 <td style="text-align: center;">2012</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;"></td>
+<td><code>ppiMMR2019</code></td>
+<td>PPI for Myanmar based on Myanmar’s 2015 Poverty and Living Conditions Survey</td>
+<td style="text-align: center;">2019</td>
+</tr>
+<tr class="even">
 <td style="text-align: right;"><ol start="32" type="1">
 <li></li>
 </ol></td>
@@ -456,13 +462,19 @@ PPI [site](https://www.povertyindex.org).
 <td>PPI for Mongolia based on Mongolia’s 2014 Household Socio-Economic Survey</td>
 <td style="text-align: center;">2016</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: right;"><ol start="33" type="1">
 <li></li>
 </ol></td>
 <td><code>ppiMOZ2013</code></td>
 <td>PPI for Mozambique based on 2008/9 Household Budget Survey</td>
 <td style="text-align: center;">2013</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"></td>
+<td><code>ppiMOZ2019</code></td>
+<td>PPI for Mozambqiue based on 2014 Inquerito Sobre Orcamento Familiar (IOF) Survey</td>
+<td style="text-align: center;">2019</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;"><ol start="34" type="1">
@@ -743,7 +755,7 @@ command in R:
 
 ``` r
 find_table()
-#> # A tibble: 85 x 7
+#> # A tibble: 88 x 7
 #>    region   country  survey_year release_year description    type  filename
 #>    <fct>    <fct>          <int>        <int> <fct>          <fct> <fct>   
 #>  1 Asia     Afghani…        2007         2012 PPI for Afgha… sps   ppiAFG2…
@@ -756,7 +768,7 @@ find_table()
 #>  8 Africa   Burkina…        2014         2017 PPI for Burki… sps   ppiBFA2…
 #>  9 Africa   Burkina…        2014         2017 PPI for Burki… ipa   ppiBFA2…
 #> 10 Asia     Cambodia        2011         2015 PPI for Cambo… sps   ppiKHM2…
-#> # … with 75 more rows
+#> # … with 78 more rows
 ```
 
 View the list of PPI country tables for Africa using the following
@@ -764,7 +776,7 @@ command in R:
 
 ``` r
 find_table(region = "Africa")
-#> # A tibble: 35 x 7
+#> # A tibble: 37 x 7
 #>    region country  survey_year release_year description      type  filename
 #>    <fct>  <fct>          <int>        <int> <fct>            <fct> <fct>   
 #>  1 Africa Angola          2008         2015 PPI for Angola … sps   ppiAGO2…
@@ -777,7 +789,7 @@ find_table(region = "Africa")
 #>  8 Africa Cote d'…        2015         2018 PPI for Ivory C… ipa   ppiCIV2…
 #>  9 Africa Ethiopia        2010         2016 PPI for Ethiopi… sps   ppiETH2…
 #> 10 Africa Ghana           2012         2015 PPI for Ghana b… sps   ppiGHA2…
-#> # … with 25 more rows
+#> # … with 27 more rows
 ```
 
 View the list of PPI country tables in Zambia using the the following
@@ -804,7 +816,7 @@ tables, the following command can be used in R:
 
 ``` r
 get_table()
-#> # A tibble: 82,517 x 7
+#> # A tibble: 87,769 x 7
 #>    country     release_year filename   type  score poverty_definition   ppi
 #>    <fct>       <fct>        <fct>      <fct> <dbl> <chr>              <dbl>
 #>  1 Afghanistan 2012         ppiAFG2012 sps       0 nl                 100  
@@ -817,7 +829,7 @@ get_table()
 #>  8 Afghanistan 2012         ppiAFG2012 sps       7 nl                  68.8
 #>  9 Afghanistan 2012         ppiAFG2012 sps       8 nl                  68.8
 #> 10 Afghanistan 2012         ppiAFG2012 sps       9 nl                  68.8
-#> # … with 82,507 more rows
+#> # … with 87,759 more rows
 ```
 
 To get the actual PPI tables for all countries with PPI tables in
@@ -825,7 +837,7 @@ Africa, the following command can be used in R:
 
 ``` r
 get_table(region = "Africa")
-#> # A tibble: 37,370 x 7
+#> # A tibble: 40,703 x 7
 #>    country release_year filename   type  score poverty_definition   ppi
 #>    <fct>   <fct>        <fct>      <fct> <dbl> <chr>              <dbl>
 #>  1 Angola  2015         ppiAGO2015 sps       0 nl100                100
@@ -838,7 +850,7 @@ get_table(region = "Africa")
 #>  8 Angola  2015         ppiAGO2015 sps       7 nl100                100
 #>  9 Angola  2015         ppiAGO2015 sps       8 nl100                100
 #> 10 Angola  2015         ppiAGO2015 sps       9 nl100                100
-#> # … with 37,360 more rows
+#> # … with 40,693 more rows
 ```
 
 ### Notes
@@ -847,4 +859,4 @@ get_table(region = "Africa")
     package. There is no lookup table for China because the China
     Poverty Scorecard is an expert-based scorecard. See
     [this](https://www.povertyindex.org/china-expert-based-poverty-scorecard)
-    for futher explanation.
+    for further explanation.

@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiBFA2017}
 \alias{ppiBFA2017}
-\title{ppiBFA2017}
+\title{Poverty Probability Index (PPI) lookup table for Burkina Faso}
 \format{A data frame with 15 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -23,7 +23,7 @@
 \item{\code{percentile80}}{Below 80th percentile poverty line}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiBFA2017

@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiRUS2010}
 \alias{ppiRUS2010}
-\title{ppiRUS2010}
+\title{Poverty Probability Index (PPI) lookup table for Russia}
 \format{A data frame with 4 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -12,7 +12,7 @@
 \item{\code{ppp625}}{Below $6.25 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiRUS2010

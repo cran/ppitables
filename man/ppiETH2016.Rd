@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiETH2016}
 \alias{ppiETH2016}
-\title{ppiETH2016}
+\title{Poverty Probability Index (PPI) lookup table for Ethiopia}
 \format{A data frame with 21 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -29,7 +29,7 @@
 \item{\code{percentile80}}{Below 80th percentile poverty line}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiETH2016

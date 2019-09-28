@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiGTM2016}
 \alias{ppiGTM2016}
-\title{ppiGTM2016}
+\title{Poverty Probability Index (PPI) lookup table for Guatemala}
 \format{A data frame with 17 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -25,7 +25,7 @@
 \item{\code{percentile80}}{Below 80th percentile poverty line}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiGTM2016

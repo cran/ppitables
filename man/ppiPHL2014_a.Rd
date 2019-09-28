@@ -3,7 +3,8 @@
 \docType{data}
 \name{ppiPHL2014_a}
 \alias{ppiPHL2014_a}
-\title{ppiPHL2014_a}
+\title{Poverty Probability Index (PPI) lookup table for Philippines using new
+poverty definitions}
 \format{A data frame with 11 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -19,7 +20,7 @@
 \item{\code{ppp310}}{Below $3.10 per day purchasing power parity (2011)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiPHL2014_a

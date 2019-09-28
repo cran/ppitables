@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiKHM2015_wb}
 \alias{ppiKHM2015_wb}
-\title{ppiKHM2015_wb}
+\title{Poverty Probability Index (PPI) lookup table for Cambodia}
 \format{A data frame with 9 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -17,7 +17,7 @@
 \item{\code{ppp500}}{Below $5.00 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiKHM2015_wb

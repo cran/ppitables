@@ -3,7 +3,8 @@
 \docType{data}
 \name{ppiIDN2012}
 \alias{ppiIDN2012}
-\title{ppiIDN2012}
+\title{Poverty Probability Index (PPI) lookup table for Indonesia using legacy
+poverty definitions}
 \format{A data frame with 4 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -12,7 +13,7 @@
 \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiIDN2012

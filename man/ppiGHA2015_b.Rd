@@ -3,7 +3,8 @@
 \docType{data}
 \name{ppiGHA2015_b}
 \alias{ppiGHA2015_b}
-\title{ppiGHA2015_b}
+\title{Poverty Probability Index (PPI) lookup table for Ghana using poverty
+definitions deflated with the change in 100\% of national poverty line}
 \format{A data frame with 8 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -16,14 +17,14 @@
 \item{\code{ppp310}}{Below $3.10 per day purchasing power parity (2011)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiGHA2015_b
 }
 \description{
 Poverty Probability Index (PPI) lookup table for Ghana using poverty
-definitions deflated with the change in 100% of national poverty line
+definitions deflated with the change in 100\% of national poverty line
 }
 \examples{
   # Access Ghana PPI table

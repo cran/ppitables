@@ -3,7 +3,8 @@
 \docType{data}
 \name{ppiIND2016_r59}
 \alias{ppiIND2016_r59}
-\title{ppiIND2016_r59}
+\title{Poverty Probability Index (PPI) lookup table for India using r59 poverty
+definitions}
 \format{A data frame with 4 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -12,7 +13,7 @@
 \item{\code{ppp216}}{Below $2.16 per day purchasing power parity (1993)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiIND2016_r59

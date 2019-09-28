@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiMDG2015}
 \alias{ppiMDG2015}
-\title{ppiMDG2015}
+\title{Poverty Probability Index (PPI) lookup table for Madagascar}
 \format{A data frame with 9 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -17,7 +17,7 @@
 \item{\code{ppp500}}{Below $2.50 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiMDG2015

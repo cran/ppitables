@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiRWA2016}
 \alias{ppiRWA2016}
-\title{ppiRWA2016}
+\title{Poverty Probability Index (PPI) lookup table for Rwanda}
 \format{A data frame with 11 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -19,7 +19,7 @@
 \item{\code{ppp844}}{Below $8.44 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiRWA2016

@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiBGD2013}
 \alias{ppiBGD2013}
-\title{ppiBGD2013}
+\title{Poverty Probability Index (PPI) lookup table for Bangladesh}
 \format{A data frame with 10 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -18,7 +18,7 @@
 \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiBGD2013

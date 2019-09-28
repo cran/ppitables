@@ -3,7 +3,8 @@
 \docType{data}
 \name{ppiNPL2013_a}
 \alias{ppiNPL2013_a}
-\title{ppiNPL2013_a}
+\title{Poverty Probability Index (PPI) lookup table for Nepal using new poverty
+definitions}
 \format{A data frame with 9 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -17,7 +18,7 @@
 \item{\code{ppp250}}{Below $2.50 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiNPL2013_a

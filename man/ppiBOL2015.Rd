@@ -3,7 +3,7 @@
 \docType{data}
 \name{ppiBOL2015}
 \alias{ppiBOL2015}
-\title{ppiBOL2015}
+\title{Poverty Probability Index (PPI) lookup table for Bolivia}
 \format{A data frame with 10 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
@@ -18,7 +18,7 @@
 \item{\code{ppp844}}{Below $5.00 per day purchasing power parity (2005)}
 }}
 \source{
-\url{www.povertyindex.org}
+\url{https://www.povertyindex.org}
 }
 \usage{
 ppiBOL2015

@@ -1,13 +1,13 @@
-57d1b6473e58c50b8bcff15fe79451c1 *DESCRIPTION
+cc24774eb0ed06b752e37e9e3a04c20d *DESCRIPTION
 58756d0fba7501895e7009bc76b2a9a9 *LICENSE
 b840a35306dcb532f7c1d75425aa8137 *NAMESPACE
-5d1d5c10b531f0f2766b2ed0eccdcb79 *NEWS.md
-994ffc09b49690917abba5625e3720be *R/data.R
+a8fbfcecd1bc358269159d5004461aa4 *NEWS.md
+79aef733df527d5557abdc5e24e7d73b *R/data.R
 38ae7729754e4e82ff77e5fd7c99686e *R/find_table.R
 714a5ed55c4e798c199f5c9f2d442bd4 *R/get_table.R
 65b3013b2d7a8620d3522ffe815ebeb3 *R/ppitables.R
-3dda629a28fc54ff18ccbb9274653f02 *R/sysdata.rda
-97b9bd720d96e70d849c56670c9b45cb *README.md
+65521d5abf27b418e8f1f36763a87efb *R/sysdata.rda
+73d2211b0a2b13816b93f62da408151b *README.md
 5baf19394cb5299cd06de9fdd71d9348 *data/ppiAFG2012.rda
 e875312b07ce1c618051ef7d251341b3 *data/ppiAGO2015.rda
 7fd2ca0f13726abb9d56e42807585068 *data/ppiBEN2012.rda
@@ -80,6 +80,7 @@ adcd7fe394355d98d11cfdee5dd15225 *data/ppiPHL2018.rda
 3f5386ab60f5cab15bab5a9325fb5f88 *data/ppiROU2009.rda
 c1b7fc543ebbce117aa37b87da94e507 *data/ppiRUS2010.rda
 877f979eed76e341e3b9fbf1356e97f4 *data/ppiRWA2016.rda
+53f27642382c5383b8de844ace8c72e2 *data/ppiRWA2019.rda
 b9324c042557c9a4ccfe7830e34a3cfa *data/ppiSEN2009.rda
 dc5bc71990fbbe62d1a1bd09ef0177ea *data/ppiSEN2018.rda
 67821055a8404c8da6e2c3acf65e4ec1 *data/ppiSLE2011.rda
@@ -100,8 +101,8 @@ daccf4d417ba2ddedb61a78dcd71ccaa *data/ppiZMB2017_a.rda
 950c552ad07dddaa346f36a5c0430a81 *inst/createHexSticker.R
 b353daff14d7305a831436442edbcdd0 *inst/figures/poverty.png
 a584305010795afa75e6544237c0df2d *man/figures/ppitables.png
-b7021123b3e5a557124574432ad4c036 *man/find_table.Rd
-31b720b72dd7cc3ab809f8395a111fe7 *man/get_table.Rd
+f532231edf983bedcafefc843e30b512 *man/find_table.Rd
+3d93d73c04f3fbf71c71928da082f68c *man/get_table.Rd
 af6d082cb4c6c4b23e139f78e4b49b8e *man/ppiAFG2012.Rd
 cb170229dbdc64714cc1774ded8308c6 *man/ppiAGO2015.Rd
 daade294f59a4a651324abd7f0d14fb2 *man/ppiBEN2012.Rd
@@ -174,6 +175,7 @@ f1dfd735da65c30336b64f5943e27f23 *man/ppiPSE2014.Rd
 29cb7232c98cbd17d91665d124fd6c08 *man/ppiROU2009.Rd
 8ea329ee27dff17635da8fb62e830915 *man/ppiRUS2010.Rd
 d15d085befceb558a6284a5449898324 *man/ppiRWA2016.Rd
+ae169bdc88a949f323856ba7db8582f7 *man/ppiRWA2019.Rd
 0dee7bc83b3e52b2f644f63d89723702 *man/ppiSEN2009.Rd
 32594ca69d28b889f05a670043f1dd0b *man/ppiSEN2018.Rd
 bf59a7a9def70b675ab76176a324165f *man/ppiSLE2011.Rd
@@ -191,7 +193,7 @@ f5df8d2e29a3de83c83227dadb6647a0 *man/ppiZAF2009.Rd
 5e18c1f283ebe06ff0c350bc2b2da640 *man/ppiZMB2013_got.Rd
 8bb42b9be93593cb9aef55bc42ba9f66 *man/ppiZMB2017.Rd
 3a7b01562e0df86f5ae5f138c79e56a8 *man/ppiZMB2017_a.Rd
-7e23feebe0adca58504d07689278fcba *man/ppitables.Rd
+92344b438512835e5d859f11932ff61e *man/ppitables.Rd
 60a8ee26dc7bf54ead382162ccf03e43 *tests/testthat.R
 ee16901c74c73a4e050c5a4d04c976e6 *tests/testthat/test_find_table.R
 d3102a7a3474c11b58f1e1a4b37fd311 *tests/testthat/test_get_table.R

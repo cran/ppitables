@@ -4,7 +4,8 @@
 \name{ppiRWA2019}
 \alias{ppiRWA2019}
 \title{Poverty Probability Index (PPI) lookup table for Rwanda}
-\format{A data frame with 20 columns and 101 rows:
+\format{
+A data frame with 20 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
 \item{\code{nl100}}{National poverty line (100)}
@@ -26,7 +27,8 @@
 \item{\code{percentile40}}{NA}
 \item{\code{percentile60}}{NA}
 \item{\code{percentile80}}{NA}
-}}
+}
+}
 \source{
 \url{https://www.povertyindex.org}
 }
@@ -35,5 +37,26 @@ ppiRWA2019
 }
 \description{
 Poverty Probability Index (PPI) lookup table for Rwanda
+}
+\examples{
+  # Access Rwanda PPI table
+  ppiRWA2019
+
+  # Given a specific PPI score (from 0 - 100), get the row of poverty
+  # probabilities from PPI table it corresponds to
+  ppiScore <- 50
+  ppiRWA2019[ppiRWA2019$score == ppiScore, ]
+
+  # Use subset() function to get the row of poverty probabilities corresponding
+  # to specific PPI score
+  ppiScore <- 50
+  subset(ppiRWA2019, score == ppiScore)
+
+  # Given a specific PPI score (from 0 - 100), get a poverty probability
+  # based on a specific poverty definition. In this example, the national
+  # poverty line is used
+  ppiScore <- 50
+  ppiRWA2019[ppiRWA2019$score == ppiScore, "nl100"]
+
 }
 \keyword{datasets}

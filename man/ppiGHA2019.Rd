@@ -4,7 +4,8 @@
 \name{ppiGHA2019}
 \alias{ppiGHA2019}
 \title{Poverty Probability Index (PPI) lookup table for Ghana}
-\format{A data frame with 20 columns and 101 rows:
+\format{
+A data frame with 20 columns and 101 rows:
 \describe{
 \item{\code{score}}{PPI score}
 \item{\code{nl100}}{National poverty line (100\%)}
@@ -26,7 +27,8 @@
 \item{\code{percentile40}}{Below 40th percentile poverty line}
 \item{\code{percentile60}}{Below 50th percentile poverty line}
 \item{\code{percentile80}}{Below 60th percentile poverty line}
-}}
+}
+}
 \source{
 \url{https://www.povertyindex.org}
 }
@@ -35,5 +37,26 @@ ppiGHA2019
 }
 \description{
 Poverty Probability Index (PPI) lookup table for Ghana
+}
+\examples{
+  # Access Ghana PPI table
+  ppiGHA2019
+
+  # Given a specific PPI score (from 0 - 100), get the row of poverty
+  # probabilities from PPI table it corresponds to
+  ppiScore <- 50
+  ppiGHA2019[ppiGHA2019$score == ppiScore, ]
+
+  # Use subset() function to get the row of poverty probabilities corresponding
+  # to specific PPI score
+  ppiScore <- 50
+  subset(ppiGHA2019, score == ppiScore)
+
+  # Given a specific PPI score (from 0 - 100), get a poverty probability
+  # based on a specific poverty definition. In this example, the national
+  # poverty line is used
+  ppiScore <- 50
+  ppiGHA2019[ppiGHA2019$score == ppiScore, "nl100"]
+
 }
 \keyword{datasets}

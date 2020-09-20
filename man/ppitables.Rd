@@ -4,11 +4,8 @@
 \name{ppitables}
 \alias{ppitables}
 \alias{ppitables-package}
-\title{ppitables}
+\title{Poverty Probability Index (PPI) Lookup Tables}
 \description{
-Poverty Probability Index (PPI) Lookup Tables
-}
-\details{
 The Poverty Probability Index (PPI) is a poverty measurement tool for
 organizations and businesses with a mission to serve the poor. The PPI is
 statistically-sound, yet simple to use: the answers to 10 questions about a
@@ -19,8 +16,8 @@ only a narrow margin.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/validmeasures/ppitables}
-  \item Report bugs at \url{https://github.com/validmeasures/ppitables/issues}
+  \item \url{https://github.com/katilingban/ppitables}
+  \item Report bugs at \url{https://github.com/katilingban/ppitables/issues}
 }
 
 }

@@ -1,17 +1,21 @@
 title: ppitables
 
-url: https://validmeasures.org/ppitables
+url: https://katilingban.io/ppitables
 
 template:
   params:
-    bootswatch: sandstone
-    ganalytics: UA-102485058-9
+    bootswatch: cerulean
+    ganalytics: UA-172103104-2
+
+navbar:
+  type: inverse
 
 home:
-  #strip_header: true
   links:
   - text: Read more about PPI
     href: https://www.povertyindex.org
+  - text: Learn more about Katilingban at
+    href: https://katilingban.io
 
 #navbar:
 #  left:
@@ -75,6 +79,7 @@ reference:
   - ppiHTI2016
   - ppiIDN2012
   - ppiIDN2012_a
+  - ppiIDN2020
   - ppiIND2016_r59
   - ppiIND2016_r62
   - ppiIND2016_r66

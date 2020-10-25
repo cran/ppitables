@@ -1,13 +1,13 @@
-c73e8e1159cb885a455db221f5df3c2a *DESCRIPTION
+1fd99ee8267ff932782df01359755e4d *DESCRIPTION
 58756d0fba7501895e7009bc76b2a9a9 *LICENSE
 e192c83c67b96a150cbcdb1bd5889b68 *NAMESPACE
-b0928b54352a00eff76ad4484b0914d6 *NEWS.md
-caef05c4e50a34823e8f96093a26d7ac *R/data.R
+2ec533c165a811078c4fc3e59d376e28 *NEWS.md
+14c38b2bb2cb273a8ca3b4be53b2c6e5 *R/data.R
 526800d31629bcd1c999b5547a9277a4 *R/find_table.R
 6b620bc65f8cbb0845a176c8fec87285 *R/get_table.R
 57858e8299ddaff3c37db0a2743a0877 *R/ppitables.R
-9427b280baf263c5bd5caf7500b962c5 *R/sysdata.rda
-166dbcf9374be3ab9da0591ef731980b *README.md
+a90ca92b9e9c5b0c1bb237a3c4da355f *R/sysdata.rda
+ec80f6dfd5b1828131775fd549912fd1 *README.md
 5baf19394cb5299cd06de9fdd71d9348 *data/ppiAFG2012.rda
 e875312b07ce1c618051ef7d251341b3 *data/ppiAGO2015.rda
 7fd2ca0f13726abb9d56e42807585068 *data/ppiBEN2012.rda
@@ -38,6 +38,7 @@ f0cdd193ae7431fe512dff90a1c6b971 *data/ppiHND2010.rda
 4d972440c9cdec84ca04756d9f316692 *data/ppiHTI2016.rda
 ea8b7680058e45a5ea608bd591900311 *data/ppiIDN2012.rda
 47883214a3250eed8b3e9d646b012389 *data/ppiIDN2012_a.rda
+b74972453cba8c32efc2ea1f88a2af86 *data/ppiIDN2020.rda
 10c2998b8ff3f71728314ac49b516e7c *data/ppiIND2016_r59.rda
 b558b389713384058ffeece187d4385b *data/ppiIND2016_r62.rda
 da902852c6546a871de1c2e082fc4d48 *data/ppiIND2016_r66.rda
@@ -99,8 +100,8 @@ f9c7b97410204bcbf05b9c4453dd4b28 *data/ppiYEM2009.rda
 335f26f91f560f2777767fd32b1a43cf *data/ppiZMB2013_got.rda
 7e60c647fd88e78cc747374562bd4b97 *data/ppiZMB2017.rda
 daccf4d417ba2ddedb61a78dcd71ccaa *data/ppiZMB2017_a.rda
-c8cedec0fd3dca87a76c164f1b0a6e80 *inst/WORDLIST
-15c2efa615b568b9a451e864cc8ccd84 *inst/_pkgdown.yml
+e11d739af187d67db37b6558a183dbd1 *inst/WORDLIST
+2be3b2a24d7c4bd736f5a88e93d29541 *inst/_pkgdown.yml
 950c552ad07dddaa346f36a5c0430a81 *inst/createHexSticker.R
 b353daff14d7305a831436442edbcdd0 *inst/figures/poverty.png
 a584305010795afa75e6544237c0df2d *man/figures/ppitables.png
@@ -136,6 +137,7 @@ f913ac76142127d544732e8394542da9 *man/ppiHND2010.Rd
 bee0afb0cfc9dacde8b987d8b455d3ed *man/ppiHTI2016.Rd
 36bc956f4a23be00bf9058920287592b *man/ppiIDN2012.Rd
 937654029c6909f50f7075a97de3daa3 *man/ppiIDN2012_a.Rd
+51627a41e82a4acba1553b512980cc90 *man/ppiIDN2020.Rd
 1cff4a98246d93dedd31e1b2de7de56b *man/ppiIND2016_r59.Rd
 b01f8a767887e42c3e114f68eafcd822 *man/ppiIND2016_r62.Rd
 59cdd25e9382a70c6a942305df1c4657 *man/ppiIND2016_r66.Rd
@@ -200,5 +202,5 @@ cc10bfd7cef802c70b875d38585c9474 *man/ppiZMB2017_a.Rd
 6c930452a82fc19b20da352f2fa0b5da *man/ppitables.Rd
 0622a97a2aaa3c342f09636052c2d7f5 *tests/spelling.R
 60a8ee26dc7bf54ead382162ccf03e43 *tests/testthat.R
-ee16901c74c73a4e050c5a4d04c976e6 *tests/testthat/test_find_table.R
-d3102a7a3474c11b58f1e1a4b37fd311 *tests/testthat/test_get_table.R
+06bcc192a043906e5f2ad6dacec3d247 *tests/testthat/test_find_table.R
+afa056a95c0b376524b215b8ce71b23d *tests/testthat/test_get_table.R

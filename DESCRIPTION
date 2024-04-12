@@ -2,7 +2,7 @@ Package: ppitables
 Type: Package
 Title: Lookup Tables to Generate Poverty Likelihoods and Rates using
         the Poverty Probability Index (PPI)
-Version: 0.5.4
+Version: 0.5.5
 Authors@R: person("Ernest", "Guevarra", 
                   comment = c(ORCID = "0000-0002-4887-4415"), 
                   email = "ernestgmd@gmail.com", role = c("aut", "cre"))
@@ -16,20 +16,22 @@ Description: The Poverty Probability Index (PPI) is a poverty measurement tool
     on their score from the country-specific PPI questionnaire. These lookup 
     tables have been extracted from documentation of the PPI found at 
     <https://www.povertyindex.org> and managed by Innovations for Poverty Action 
-    <https://www.poverty-action.org>.
+    <https://poverty-action.org/>.
 License: MIT + file LICENSE
 Depends: R (>= 2.10)
 Imports: tibble, tidyr
-Suggests: testthat, covr, spelling, stringr, readxl
+Suggests: testthat (>= 3.0.0), covr, spelling, stringr, readxl
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
-RoxygenNote: 7.1.1
-URL: https://github.com/katilingban/ppitables
+RoxygenNote: 7.3.1
+URL: https://github.com/katilingban/ppitables,
+        https://katilingban.io/ppitables/
 BugReports: https://github.com/katilingban/ppitables/issues
+Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2020-10-24 23:17:53 UTC; ernest
+Packaged: 2024-04-12 18:59:59 UTC; ernestguevarra
 Author: Ernest Guevarra [aut, cre] (<https://orcid.org/0000-0002-4887-4415>)
 Maintainer: Ernest Guevarra <ernestgmd@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-10-25 14:00:03 UTC
+Date/Publication: 2024-04-12 19:10:03 UTC

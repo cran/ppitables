@@ -1,3 +1,15 @@
+# ppitables 0.5.5
+
+This is the tenth CRAN release of `ppitables`. In this release, I added:
+
+* new PPI tables for multiple countries released during the period of 2021 to
+2023
+
+* updated `steer` data that serves as an index to the tables to include the new
+Indonesia PPI tables
+
+* general documentation updates and general checking updates
+
 # ppitables 0.5.4
 
 This is the ninth CRAN release of `ppitables`. In this release, I added:
